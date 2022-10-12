@@ -1,0 +1,52 @@
+@page {
+    size: A4;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th {
+    padding: 8px 8px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.table td {
+    padding: 3px 3px;
+    border: 1px solid #000000;
+}
+
+table.single-table {
+    margin-left: 10mm;
+    margin-top: 15mm;
+}
+
+table.single-table th {
+    padding: 8px 8px;
+    text-align: center;
+}
+
+table.single-table td {
+    padding: 3px 3px;
+}
+
+.text-center {
+    text-align: center;
+    line-height: 5px;
+}
+.nospace {
+    line-height: 5px;
+}
+hr.bold {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
